@@ -48,7 +48,7 @@ theme = "hugo-devresume-theme"
         text = "tom@linux-konsult.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
+        url = "https://linux-konsult.com"
         text = "linux-konsult.com"
 
 
