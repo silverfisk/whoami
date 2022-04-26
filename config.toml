@@ -114,12 +114,12 @@ theme = "hugo-devresume-theme"
         university = "Stockholm, Sweden"
         dates = "2003.06"
         [[params.education.list]]
-        degree = ""
-        university = ""
-        dates = ""
+        degree = "Introduction to Internetworking"
+        university = "Learningtree, Sweden"
+        dates = "2001.06"
         [[params.education.list]]
-        degree = ""
-        university = ""
+        degree = "ITIL v3 Foundation"
+        university = "Stockholm"
         dates = ""
         [[params.education.list]]
         degree = ""
@@ -193,7 +193,7 @@ theme = "hugo-devresume-theme"
         enable = true
         text = """I work as a Tech Lead in a newly formed SRE team. Our group build a cloud based backend for autonomous semitrucks.
 
-Experience in the Autonomous Semitruck field has been a great challenge. I have been involved in the development of AWS infrastructure for the cloud backend and improving observability and security for several microservices.
+Experience in the Autonomous Semitruck field. where I have been involved in the development of AWS infrastructure for the cloud backend and improving observability and security for several microservices.
 """
 
 
