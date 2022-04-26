@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http:/whoami.linux-konsult.com/"
+baseURL = "/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
