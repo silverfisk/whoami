@@ -95,16 +95,36 @@ theme = "hugo-devresume-theme"
 
 
     [params.education]
-        enable = false
+        enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "Architecting on AWS"
+        university = "Amazon, Sweden"
+        dates = "2017.06"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "GitHub, Train the Trainer"
+        university = "GitHub, Sweden"
+        dates = "2016.06"
+        [[params.education.list]]
+        degree = "Solaris 9 System Administration"
+        university = "Skillsoft, Remote"
+        dates = "2007.06"
+        [[params.education.list]]
+        degree = "Cisco CCNA"
+        university = "Stockholm, Sweden"
+        dates = "2003.06"
+        [[params.education.list]]
+        degree = ""
+        university = ""
+        dates = ""
+        [[params.education.list]]
+        degree = ""
+        university = ""
+        dates = ""
+        [[params.education.list]]
+        degree = ""
+        university = ""
+        dates = ""
 
 
 
@@ -306,12 +326,105 @@ Experience in the Autonomous Semitruck field has been a great challenge. I have 
         [[params.experience.list.items]]
         details = "Application monitoring   "
 
+        [[params.experience.list]]
+        title = "System Administrator"
+        dates = "2011.01 - 2014.01"
+        company = "Mogul Services"
+        [[params.experience.list.items]]
+        details = "Migrated, OS/Software monitoring & hardening the Swedish Government public Web site (sweden.gov.se & regeringen.se)"
+        [[params.experience.list.items]]
+        details = "Mitigated a DDOS attack from the Anonymous group on the government of Swedens website , regeringen.se"
+        [[params.experience.list.items]]
+        details = "Set up scripting, system administration and automation for Sveriges Television (Sweden's national TV station) websites www.svt.se and svtplay.se"
+        [[params.experience.list.items]]
+        details = "Setup of a new Escenic / Tomcat environment for Sveriges Television"
+        [[params.experience.list.items]]
+        details = "Automate operational tasks in RunDeck"
+        [[params.experience.list.items]]
+        details = "Stingray Load Balancers; traffic scripting etc."
+        [[params.experience.list.items]]
+        details = "Various Nagios / OP5 plugin scripting"
+        [[params.experience.list.items]]
+        details = "VMWare ESXi + Netapp cluster management"
+        [[params.experience.list.items]]
+        details = "Percona MySQL"
+        [[params.experience.list.items]]
+        details = "Apache httpd management"
+
+        [[params.experience.list]]
+        title = "Java Application Technician"
+        dates = "2008.01 - 2011.01"
+        company = "Memnon Network Applications"
+        [[params.experience.list.items]]
+        details = "Application monitoring & troubleshooting in the Operation Environment Apport.net"
+        [[params.experience.list.items]]
+        details = "Automate deployments in a Jenkins/Hudson CD pipeline"
+        [[params.experience.list.items]]
+        details = "Compose Operations- & Incident Reports"
+        [[params.experience.list.items]]
+        details = "Analyze Java Application Errors & produce bug reports"
+        [[params.experience.list.items]]
+        details = "Tweak/optimize/monitor java 1.5 Garbage Collection"
+        [[params.experience.list.items]]
+        details = "Create Test & deployment environments for the JBoss application Apport.net"
+        [[params.experience.list.items]]
+        details = "Deploy internal infrastructure such as SVN, AD-connected freeradius et cetera"
+        [[params.experience.list.items]]
+        details = "Compose various Bash & Perl scripts (deploy & monitoring scripts mainly)"
+        [[params.experience.list.items]]
+        details = "Java JMX performance instrumentation"
+        [[params.experience.list.items]]
+        details = "Setup of redundant firewalls & redundant apache servers/load balancers"
+        [[params.experience.list.items]]
+        details = "Migrate Apport.net from Solaris to Linux"
+        [[params.experience.list.items]]
+        details = "Compose System documentation templates"
+        [[params.experience.list.items]]
+        details = "Set up of MySQL slave servers"
+        [[params.experience.list.items]]
+        details = "Produce Standard work Procedures"
 
 
+        [[params.experience.list]]
+        title = "Unix Coach"
+        dates = "2008.01 - 2008.01"
+        company = "Elan IT"
+        [[params.experience.list.items]]
+        details = "SLA responsible for the Ericsson R&D Service Desk"
+        [[params.experience.list.items]]
+        details = "Coaching of R&D Service Desk agents, backoffice & mail admins (approx. 20 ppl)"
+        [[params.experience.list.items]]
+        details = "Tactical Incident Management / Incident Escalation"
+        [[params.experience.list.items]]
+        details = "Scripting in tcsh, bash & perl"
+        [[params.experience.list.items]]
+        details = "Evaluate candidating agents technical proficiency"
 
 
+        [[params.experience.list]]
+        title = "Unix Service Desk Agent"
+        dates = "2006.01 - 2007.01"
+        company = "Poolia IT"
+        [[params.experience.list.items]]
+        details = "Support Ericsson developers with their Linux/Unix development environment"
+ 
 
+        [[params.experience.list]]
+        title = "Service Desk Agent"
+        dates = "2004.01 - 2005.01"
+        company = "HP Ireland"
+        [[params.experience.list.items]]
+        details = "2nd line support analyst"
+        
 
+        [[params.experience.list]]
+        title = "System Administrator"
+        dates = "2000.06 - 2004.01"
+        company = "ISD Datasystem"
+        [[params.experience.list.items]]
+        details = "Systems administration (NetBSD, Red Hat Linux, IRIX & Windows)"
+        [[params.experience.list.items]]
+        details = "Installation of various server systems such as backup systems, email systems et cetera"
 
 
 
