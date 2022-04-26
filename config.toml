@@ -1,0 +1,385 @@
+# Page settings
+
+baseURL = "http:/whoami.linux-konsult.com/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+# googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Tom Eklöf"
+    description = "Twenty+ years of experience in the field"
+
+
+    primaryColor = "#c5a07a"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Tom"
+        tagline = "Site Reliability Engineer"
+        avatar = "avatar.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Remote"
+
+        # [[params.contact.list]]
+        # icon = "fas fa-phone-square"
+        # url = "tel:#"
+        # text = "0123 4567 890"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "tom@linux-konsult.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "linux-konsult.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+        [[params.skills.list]]
+        # title = "Technical"
+        [[params.skills.list.items]]
+        details = "AWS"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "DevOps/SecOps"
+        [[params.skills.list.items]]
+        details = "CI/CD"
+        [[params.skills.list.items]]
+        details = "Docker"
+        [[params.skills.list.items]]
+        details = "Terraform"
+        [[params.skills.list.items]]
+        details = "CloudFormation"
+        [[params.skills.list.items]]
+        details = "Ansible"
+        [[params.skills.list.items]]
+        details = "Kubernetes"
+        [[params.skills.list.items]]
+        details = "Linux"
+        [[params.skills.list.items]]
+        details = "Observability"
+        [[params.skills.list.items]]
+        details = "GitLab"
+  
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = false
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "University College London"
+        dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "BSc Maths and Physics"
+        university = "Imperial College London"
+        dates = "2007 - 2010"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Swedish"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Gardening"
+        [[params.interests.list]]
+        name = "Home automation"
+        [[params.interests.list]]
+        name = "Cryptocurrencies"
+   
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = """I work as a Tech Lead in a newly formed SRE team. Our group build a cloud based backend for autonomous semitrucks.
+
+Experience in the Autonomous Semitruck field has been a great challenge. I have been involved in the development of AWS infrastructure for the cloud backend and improving observability and security for several microservices.
+"""
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Site Reliability Engineer"
+        dates = "2021.10 -  Present"
+        company = "Scania R&D"
+        details = """Tech lead, transition observability to a cloud native stack."""
+        [[params.experience.list.items]]
+        details = "Envangelise SLO and help tems implement observability"
+        [[params.experience.list.items]]
+        details = "70% cost optimiziation of Kubernetes klusters with spot instance pricing"
+        [[params.experience.list.items]]
+        details = "Showcased Grafana with augmented SVG dashboard"
+        [[params.experience.list.items]]
+        details = "Transitioned GitLab CI runners to kubernetes"
+
+        [[params.experience.list]]
+        title = "Platform engineer"
+        dates = "2010.12 - 2021.10"
+        company = "Scania R&D"
+        details = ""
+        [[params.experience.list.items]]
+        details = "Minimize human labor efforts to automatically detect secrets committed in code"
+        [[params.experience.list.items]]
+        details = "Define metrics standards to unify each teams SLIs"
+        [[params.experience.list.items]]
+        details = "Fargate ECS"
+        [[params.experience.list.items]]
+        details = "Improve observability with unified cross-account Cloudwatch metrics"
+        [[params.experience.list.items]]
+        details = "Make prometheus/kafka metrics available in CloudWatch with OpenTelemetry"
+        [[params.experience.list.items]]
+        details = "Serverless framework (Python) api to emit release related metrics"
+        [[params.experience.list.items]]
+        details = "Improve reusable GitLab CI pipeline boilerplates"
+        [[params.experience.list.items]]
+        details = "Renovate Bot, detect and create automatic library/container supply chain updates"
+        [[params.experience.list.items]]
+        details = "Maintain CloudFormation code to streamline infrastructure such as WAFs"
+
+        [[params.experience.list]]
+        title = "Development engineer"
+        dates = "2019.01 - 2020.12"
+        company = "Scania R&D"
+        details = "Build cloud backend services for Scanias Autonomous vehicles."
+        [[params.experience.list.items]]
+        details = "Security lead"
+        [[params.experience.list.items]]
+        details = "Cloud account owner"
+        [[params.experience.list.items]]
+        details = "GitLab CI"
+        [[params.experience.list.items]]
+        details = "Data Dog monitoring"
+        [[params.experience.list.items]]
+        details = "Kinesis"
+        [[params.experience.list.items]]
+        details = "Wrote Python services with the Serverless Framework"
+        [[params.experience.list.items]]
+        details = "Wrote reusable CI pipeline boilerplates"
+        [[params.experience.list.items]]
+        details = "Managed Nexus package repository infrastructure"
+
+        [[params.experience.list]]
+        title = "Cloud Architect/Engineer"
+        dates = "2018.01 - 2019.01"
+        company = "Scania IT"
+        details = "Facilitate adoption to AWS greenfield and Data Center extension accounts for Scanias AWS accounts"
+        [[params.experience.list.items]]
+        details = "Terraform"
+        [[params.experience.list.items]]
+        details = "Ansible"
+        [[params.experience.list.items]]
+        details = "GitLab configuration & pipeline setup, mainly with Terraform and Ansible"
+        [[params.experience.list.items]]
+        details = "Control blast radius with cross-account role assume strategies"
+        [[params.experience.list.items]]
+        details = "Lambda automation (python)"
+        [[params.experience.list.items]]
+        details = "Coach an SAP DevOps technician to build capability for a hands off deployment of a SAP system with a single GIT commit. This is to be used within their business unit as a good example of the benefits of automation."
+        [[params.experience.list.items]]
+        details = "\"Sell\" cloud benefits to developers such as using and rotating secrets, with Java code examples so that secrets don't have to be persisted to disk"
+
+
+        [[params.experience.list]]
+        title = "Technical Specialist Linux Server"
+        dates = "2015.01 - 2017.12"
+        company = "Scania IT"
+        details = ""
+        [[params.experience.list.items]]
+        details = "Plan, improve & lifecycle 100+ RHEV hypervisors and 1400+ VMs"
+        [[params.experience.list.items]]
+        details = "Python scripting to automate storage migrations et cetera utilizing (mostly) RHEV APIs"
+        [[params.experience.list.items]]
+        details = "Handle management & provisioning automation for virtual machines"
+        [[params.experience.list.items]]
+        details = "Automate & configure with Ansible. Also educate Operations on best practices for automation"
+        [[params.experience.list.items]]
+        details = "Set up routines, RunDeck & Ansible automatic security patching solution"
+        [[params.experience.list.items]]
+        details = "Troubleshooted performance of Java/Tomcat/JBoss applications"
+
+        [[params.experience.list]]
+        title = "Solutions Architect"
+        dates = "2014.01 - 2015.01"
+        company = "RG19"
+        [[params.experience.list.items]]
+        details = "Service design, upgrade & management of UNIX/Linux related software"
+        [[params.experience.list.items]]
+        details = "Investigate application interconnections with tcpdump + Wireshark"
+        [[params.experience.list.items]]
+        details = "IBM AIX process memory management"
+        [[params.experience.list.items]]
+        details = "Aptean Order- and Warehouse systems"
+        [[params.experience.list.items]]
+        details = "Java/Tomcat/JBoss/WebSphere performance troubleshooting"
+        [[params.experience.list.items]]
+        details = "Measure and probe Web site performance with selenium"
+        [[params.experience.list.items]]
+        details = "Application wide system probing & documentation"
+        [[params.experience.list.items]]
+        details = "Application monitoring   "
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/silverfisk"
+        title = "silverfisk"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/tomeklof"
+        title = "tomeklof"
+        # [[params.social.list]]
+        # icon = "fab fa-twitter-square"
+        # url = "//twitter.com/username"
+        # title = "@username"
+
+
+
+
+
