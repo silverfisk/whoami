@@ -192,7 +192,7 @@ Experience in the Autonomous Semitruck field has been a great challenge. I have 
         company = "Scania R&D"
         details = """Tech lead, transition observability to a cloud native stack."""
         [[params.experience.list.items]]
-        details = "Envangelise SLO and help tems implement observability"
+        details = "Envangelise SLO and help teams implement observability"
         [[params.experience.list.items]]
         details = "70% cost optimiziation of Kubernetes klusters with spot instance pricing"
         [[params.experience.list.items]]
