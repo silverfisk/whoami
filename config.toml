@@ -100,23 +100,23 @@ theme = "hugo-devresume-theme"
         [[params.education.list]]
         degree = "Architecting on AWS"
         university = "Amazon, Sweden"
-        dates = "2017.06"
+        dates = "2017"
         [[params.education.list]]
         degree = "GitHub, Train the Trainer"
         university = "GitHub, Sweden"
-        dates = "2016.06"
+        dates = "2016"
         [[params.education.list]]
         degree = "Solaris 9 System Administration"
         university = "Skillsoft, Remote"
-        dates = "2007.06"
+        dates = "2007"
         [[params.education.list]]
         degree = "Cisco CCNA"
         university = "Stockholm, Sweden"
-        dates = "2003.06"
+        dates = "2003"
         [[params.education.list]]
         degree = "Introduction to Internetworking"
         university = "Learningtree, Sweden"
-        dates = "2001.06"
+        dates = "2001"
         [[params.education.list]]
         degree = "ITIL v3 Foundation"
         university = "Stockholm"
