@@ -191,9 +191,12 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = """I work as a Tech Lead in a newly formed combined SRE & Platform Engineering team. Our group build a cloud native-based backend for autonomous semitrucks.
+        text = """I work as a Tech Lead in a newly formed combined SRE & Platform Engineering team.
+        Our group build a cloud native-based backend for autonomous semitrucks.
 
-Experience in the Autonomous Semitruck field. Developing AWS based infrastructure (as code) for the cloud backend. Building CI/CD/GitOps workflows in GitLab. Improving observability & security for kubernetes based microservices & serverless applications."""
+        Developing AWS based infrastructure (as code) for the cloud backend.
+        Building CI/CD/GitOps workflows in GitLab.
+        Improving observability & security for kubernetes based microservices."""
 
 
 
