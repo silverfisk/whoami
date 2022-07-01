@@ -216,7 +216,11 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Envangelise SLO and help teams implement observability"
         [[params.experience.list.items]]
-        details = "70% cost optimiziation of Kubernetes klusters with spot instance pricing"
+        details = "Set up GitOps AutoDevops workflow in GitLab"
+        [[params.experience.list.items]]
+        details = "Transition GitLab CI runners to kubernetes"
+        [[params.experience.list.items]]
+        details = "70% cost optimiziation of stateless Kubernetes klusters with spot instance pricing"
         [[params.experience.list.items]]
         details = "Showcased Grafana with augmented SVG dashboard"
         [[params.experience.list.items]]
