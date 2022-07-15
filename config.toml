@@ -228,7 +228,7 @@ theme = "hugo-devresume-theme"
 
         [[params.experience.list]]
         title = "Platform engineer"
-        dates = "2010.12 - 2021.10"
+        dates = "2020.12 - 2021.10"
         company = "Scania R&D"
         details = ""
         [[params.experience.list.items]]
