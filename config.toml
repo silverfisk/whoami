@@ -209,16 +209,16 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
-        title = "Site Reliability Engineer"
+        title = "Site Reliability / Platform Engineer"
         dates = "2021.10 -  Present"
         company = "Scania R&D"
         details = """Tech lead, transition observability to a cloud native stack."""
         [[params.experience.list.items]]
         details = "Envangelise SLO and help teams implement observability"
         [[params.experience.list.items]]
-        details = "Set up GitOps AutoDevops workflow in GitLab"
+        details = "Develop a k8s Internal Development Platform (ArgoCD & Crossplane)"
         [[params.experience.list.items]]
-        details = "Transition GitLab CI runners to kubernetes"
+        details = "Transition GitLab CI runners to kubernetes & GitLab AutoDevops"
         [[params.experience.list.items]]
         details = "70% cost optimiziation of stateless Kubernetes klusters with spot instance pricing"
         [[params.experience.list.items]]
