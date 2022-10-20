@@ -25,7 +25,7 @@ theme = "hugo-devresume-theme"
     [params.profile]
         enable = true
         name = "Tom"
-        tagline = "Site Reliability Engineer"
+        tagline = "Platform Engineer"
         avatar = "avatar.png"
 
 
