@@ -13,7 +13,7 @@ theme = "hugo-devresume-theme"
 
 [params]
     author = "Tom Eklöf"
-    description = "Twenty+ years of experience in the field"
+    description = "Twenty+ years of experience in IT"
 
 
     primaryColor = "#c5a07a"
@@ -175,11 +175,13 @@ theme = "hugo-devresume-theme"
         [[params.interests.list]]
         name = "Travelling"
         [[params.interests.list]]
+        name = "Investing"
+        [[params.interests.list]]
         name = "Gardening"
         [[params.interests.list]]
         name = "Home automation"
         [[params.interests.list]]
-        name = "Cryptocurrencies"
+        name = "Tinkering in general"
    
 
 
@@ -191,16 +193,10 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = """I work as a Tech Lead in a newly formed combined SRE & Platform Engineering team.
-        Our group build a cloud-native Internal Development Platform for autonomous semitruck cloud services.
+        text = """A Platform Engineer, driven by my own curiosity both at work and in life
 
-        Developing AWS based infrastructure (as code) for the cloud backend
-        Building CI/CD/GitOps workflows in GitLab
-        Improving observability & security for kubernetes based microservices"""
-
-
-
-
+        Trying to be a helpful collaborator
+        I like to explore and experiment"""
 
 
 
@@ -212,22 +208,30 @@ theme = "hugo-devresume-theme"
         title = "Site Reliability / Platform Engineer"
         dates = "2021.10 -  Present"
         company = "Scania R&D"
-        details = """SRE Tech lead & Platform Engineer for a Internal Development Platform"""
+        details = """Platform Engineer, building an Internal Development Platform for autonomous truck developers"""
         [[params.experience.list.items]]
         details = "Develop a k8s Internal Development Platform (ArgoCD & Crossplane)"
+
         [[params.experience.list.items]]
-        details = "Transition GitLab CI runners to kubernetes & GitLab AutoDevops"
+        details = "Configure GitLab Autodevops"
+
         [[params.experience.list.items]]
-        details = "Envangelise SLO and help teams implement observability"
+        details = "Transition GitLab CI runners from EC2 to kubernetes"
+
+        [[params.experience.list.items]]
+        details = "Envangelise basic SLO concepts and help teams implement observability"
+
         [[params.experience.list.items]]
         details = "70% cost optimiziation of stateless Kubernetes klusters with spot instance pricing"
+
         [[params.experience.list.items]]
         details = "Showcased Grafana with augmented SVG dashboard"
+
         [[params.experience.list.items]]
         details = "Transitioned GitLab CI runners to kubernetes"
 
         [[params.experience.list]]
-        title = "Platform engineer"
+        title = "Enablement engineer"
         dates = "2020.12 - 2021.10"
         company = "Scania R&D"
         details = ""
@@ -251,7 +255,7 @@ theme = "hugo-devresume-theme"
         details = "Maintain CloudFormation code to streamline infrastructure such as WAFs"
 
         [[params.experience.list]]
-        title = "Development engineer"
+        title = "Development / DevOps engineer"
         dates = "2019.01 - 2020.12"
         company = "Scania R&D"
         details = "Build cloud backend services for Scanias Autonomous vehicles."
