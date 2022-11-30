@@ -62,29 +62,30 @@ theme = "hugo-devresume-theme"
         [[params.skills.list]]
         # title = "Technical"
         [[params.skills.list.items]]
-        details = "AWS"
+        details = "AWS (Experienced / 5+ years)"
         [[params.skills.list.items]]
-        details = "Python"
+        details = "DevOps (Experienced)"
         [[params.skills.list.items]]
-        details = "DevOps/SecOps"
+        details = "CI/CD (Experienced)"
         [[params.skills.list.items]]
-        details = "CI/CD"
+        details = "GitLab (Experienced)"
         [[params.skills.list.items]]
-        details = "Docker"
+        details = "Linux (Experienced)"
+
         [[params.skills.list.items]]
-        details = "Terraform"
+        details = "Docker (Average / < 5 years)"
         [[params.skills.list.items]]
-        details = "CloudFormation"
+        details = "Kubernetes (Average)"
         [[params.skills.list.items]]
-        details = "Ansible"
+        details = "Terraform (Average)"
         [[params.skills.list.items]]
-        details = "Kubernetes"
+        details = "CloudFormation (Average)"
         [[params.skills.list.items]]
-        details = "Linux"
+        details = "Ansible (Average)"
         [[params.skills.list.items]]
-        details = "Observability"
+        details = "Observability (Average)"
         [[params.skills.list.items]]
-        details = "GitLab"
+        details = "Python (Average)"
   
 
 
@@ -397,7 +398,7 @@ theme = "hugo-devresume-theme"
 
         [[params.experience.list]]
         title = "Unix Coach"
-        dates = "2008.01 - 2008.01"
+        dates = "2007.01 - 2008.01"
         company = "Elan IT"
         [[params.experience.list.items]]
         details = "SLA responsible for the Ericsson R&D Service Desk"
