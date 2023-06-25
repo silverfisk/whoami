@@ -200,7 +200,7 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
-        title = "DevOps Engineer"
+        title = "DevOps Consultant Engineer"
         dates = "2023.01 -  Present"
         company = "Länsförsäkringar Bank"
         details = """Migrate from Jenkins to Azure DevOps & refactor a standalone Java Spring Boot app for OpenShift"""
