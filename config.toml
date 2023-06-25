@@ -203,7 +203,7 @@ theme = "hugo-devresume-theme"
         title = "DevOps Engineer"
         dates = "2023.01 -  Present"
         company = "Länsförsäkringar Bank"
-        details = """DevOps Engineer, Migrate from Jenkins to Azure DevOps & refactor a standalone Java Spring Boot app for OpenShift"""
+        details = """Migrate from Jenkins to Azure DevOps & refactor a standalone Java Spring Boot app for OpenShift"""
       
         [[params.experience.list.items]]
         details = "Configure complex Helm charts for Prometheus, aiding in system monitoring"
