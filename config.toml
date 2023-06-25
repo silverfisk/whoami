@@ -21,17 +21,11 @@ theme = "hugo-devresume-theme"
 
 
 
-
     [params.profile]
         enable = true
         name = "Tom"
         tagline = "Platform Engineer"
         avatar = "avatar.png"
-
-
-
-
-
 
 
     [params.contact]
@@ -206,8 +200,34 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "2023.01 -  Present"
+        company = "Länsförsäkringar Bank"
+        details = """DevOps Engineer, Migrate from Jenkins to Azure DevOps & refactor a standalone Java Spring Boot app for OpenShift"""
+      
+        [[params.experience.list.items]]
+        details = "Configure complex Helm charts for Prometheus, aiding in system monitoring"
+        [[params.experience.list.items]]
+        details = "Design/Implement effective Azure DevOps pipelines and reusable pipeline templates & patterns"
+        [[params.experience.list.items]]
+        details = "Upgrade Helm configuration files for better Kubernetes resource management"
+        [[params.experience.list.items]]
+        details = "Streamline deployment processes with Nexus repositories"
+        [[params.experience.list.items]]
+        details = "Facilitate secure software lifecycle with AzureDevOps, improving pipeline efficiency"
+        [[params.experience.list.items]]
+        details = "Optimize Blackbox Exporter configuration for advanced HTTP and SSH monitoring"
+        [[params.experience.list.items]]
+        details = "Enhance Kubernetes access control via Helm chart modifications for Prometheus"
+        [[params.experience.list.items]]
+        details = "Consolidate and automate Kustomize operations in Azure DevOps pipeline steps"
+        [[params.experience.list.items]]
+        details = "Implement secure practices by conditionally downloading secret files in Azure DevOps"
+
+
+        [[params.experience.list]]
         title = "Site Reliability / Platform Engineer"
-        dates = "2021.10 -  Present"
+        dates = "2021.10 - 2023.01"
         company = "Scania R&D"
         details = """Platform Engineer, building an Internal Development Platform for autonomous truck developers"""
         [[params.experience.list.items]]
