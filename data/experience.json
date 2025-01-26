@@ -1,0 +1,104 @@
+[
+    {
+        "role": "Factory OS Customization for Revolution Pi hardware",
+        "company": "Aire Energy",
+        "summary": "Customized Raspberry Pi/Revolution Pi OS images to streamline device deployment for energy producers, including Python-based automation and pre-configured remote access tools.",
+        "range": "November 2024 - January 2025"
+    },
+    {
+        "role": "Senior DevOps Engineer",
+        "company": "Scania R&D",
+        "summary": "Scaling containerized applications using AWS Fargate and improving CI/CD pipelines with GitLab. Implemented CI/CD pipeline solutions, automated testing and improved developer experience with robust tooling.",
+        "range": "March 2024 - October 2024"
+    },
+    {
+        "role": "System Integrator for Off-Grid RV Solutions",
+        "company": "Independent",
+        "summary": "Integrated solar systems, EcoFlow batteries, and RV infrastructure for sustainable off-grid living. Solved technical challenges related to power inverters and system compatibility.",
+        "range": "August 2024 - October 2024"
+    },
+    {
+        "role": "DevOps Engineer",
+        "company": "Folksam försäkringar",
+        "summary": "Infrastructure automation with Ansible, deployed scalable applications on OpenShift, and enhanced CI/CD workflows using GitLab CI. Collaborated on optimizing infrastructure with Ansible and streamlined observability across the stack.",
+        "range": "September 2023 - December 2023"
+    },
+    {
+        "role": "DevOps Consultant Engineer",
+        "company": "Länsförsäkringar Bank",
+        "summary": "Migrated from Jenkins to Azure DevOps, refactored a test automation Java Spring Boot app for OpenShift, with an automated build, deploy and release flow from scratch.",
+        "range": "January 2023 - August 2023"
+    },
+    {
+        "role": "Site Reliability / Platform Engineer",
+        "company": "Scania R&D",
+        "summary": "Platform Engineer, building an Internal Development Platform for autonomous truck developers",
+        "range": "October 2021 - January 2023"
+    },
+    {
+        "role": "Enablement Engineer",
+        "company": "Scania R&D",
+        "summary": "Minimized human labor efforts to automatically detect secrets committed in code; defined metrics standards to unify team SLIs; improved observability and infrastructure automation, achieving a 70% cost optimization on Kubernetes clusters.",
+        "range": "December 2020 - October 2021"
+    },
+    {
+        "role": "Development / DevOps engineer",
+        "company": "Scania R&D",
+        "summary": "Built cloud backend services for Scania's autonomous vehicles, served as Security lead, managed GitLab CI, and maintained monitoring and infrastructure.",
+        "range": "January 2019 - December 2020"
+    },
+    {
+        "role": "Cloud Architect/Engineer",
+        "company": "Scania IT",
+        "summary": "Facilitated adoption of AWS greenfield and data center extension accounts using Terraform and Ansible; managed GitLab configurations and coached SAP DevOps technicians.",
+        "range": "January 2018 - January 2019"
+    },
+    {
+        "role": "Technical Specialist Linux Server",
+        "company": "Scania IT",
+        "summary": "Managed over 100 RHEV hypervisors and 1400 VMs, automated storage migrations with Python and RHEV APIs, and implemented automation with Ansible and RunDeck.",
+        "range": "January 2015 - December 2017"
+    },
+    {
+        "role": "Solutions Architect",
+        "company": "RG19",
+        "summary": "Designed and managed UNIX/Linux services, investigated application interconnections, managed performance troubleshooting, and monitored applications.",
+        "range": "January 2014 - January 2015"
+    },
+    {
+        "role": "System Administrator",
+        "company": "Mogul Services",
+        "summary": "Migrated and hardened Swedish Government websites, mitigated DDOS attacks, automated system administration for Sveriges Television, and managed load balancers and databases.",
+        "range": "January 2011 - January 2014"
+    },
+    {
+        "role": "Java Application Technician",
+        "company": "Memnon Network Applications",
+        "summary": "Monitored and troubleshooted applications, automated deployments in Jenkins, produced reports, optimized Java applications, and managed infrastructure.",
+        "range": "January 2008 - January 2011"
+    },
+    {
+        "role": "Unix Coach",
+        "company": "Elan IT",
+        "summary": "Managed SLA for Ericsson R&D Service Desk, coached and led a team of approximately 20 Service Desk agents and administrators, and handled tactical incident management and escalation.",
+        "range": "January 2007 - January 2008"
+    },
+    {
+        "role": "Unix Service Desk Agent",
+        "company": "Poolia IT",
+        "summary": "Supported Ericsson developers with Linux/Unix development environments.",
+        "range": "January 2006 - January 2007"
+    },
+    {
+        "role": "Service Desk Agent",
+        "company": "HP Ireland",
+        "summary": "Provided 2nd line support as an analyst.",
+        "range": "January 2004 - January 2005"
+    },
+    {
+        "role": "System Administrator",
+        "company": "ISD Datasystem",
+        "summary": "Performed systems administration on various platforms, installed server systems like backup and email systems.",
+        "range": "June 2000 - January 2004"
+    }
+]

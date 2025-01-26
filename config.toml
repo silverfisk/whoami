@@ -1,25 +1,20 @@
-# Page settings
-
-baseURL = "/"
-languageCode = "en"
-title = ""
-theme = "hugo-devresume-theme"
-#googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
-
-
+baseURL = "https://whoami.linux-konsult.com"
+#title = "Tom Eklöf"
+languageCode = "en-us"
+theme = "hugo-resume"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
 
 [params]
-    author = "Tom Eklöf"
+    firstName = "Tom"
     description = "Twenty+ years of experience in IT"
-
-
+    profileImage = "assets/images/avatar.png"
     primaryColor = "#c5a07a"
     textPrimaryColor = "#292929"
 
-
+    sections = ["experience", "skills"]
 
     [params.profile]
         enable = true

@@ -1,0 +1,122 @@
+[
+    {
+      "grouping": "Cloud Platforms",
+      "skills": [
+        "AWS",
+        "OpenStack"
+      ]
+    },
+    {
+        "grouping": "DevOps & Automation Tools",
+        "skills": [
+          "ArgoCD",
+          "Azure DevOps Pipelines",
+          "Crossplane",
+          "Lambda",
+          "Selenium",
+          "Serverless Framework"
+        ]
+      },
+      {
+        "grouping": "Incident Management & Monitoring",
+        "skills": [
+            "DataDog",
+            "OpenTelemetry",
+            "Incident Escalation",
+            "SLA Management"
+        ]
+      },
+    {
+      "grouping": "Containerization & Orchestration",
+      "skills": [
+        "ArgoCD",
+        "Docker",
+        "Fargate ECS",
+        "Helm",
+        "Kubernetes",
+        "OpenShift"
+      ]
+    },
+    {
+      "grouping": "Configuration Management & Infrastructure as Code",
+      "skills": [
+        "Ansible",
+        "CloudFormation",
+        "Heat Stacks",
+        "Kustomize",
+        "Terraform"
+      ]
+    },
+    {
+      "grouping": "CI/CD Tools",
+      "skills": [
+        "Azure DevOps Pipelines",
+        "GitHub Pipelines",
+        "GitLab CI",
+        "Jenkins"
+      ]
+    },
+    {
+        "grouping": "Linux & Embedded Systems",
+        "skills": [
+            "Raspberry Pi",
+            "Revolution Pi",
+            "Custom Linux OS images",
+            "Cross-compilation",
+            "Customized Bootable Debian ISO images"
+        ]
+    },
+    {
+      "grouping": "Programming & Scripting Languages",
+      "skills": [
+        "Python",
+        "Bash",
+        "Perl",
+        "Java"
+      ]
+    },
+    {
+      "grouping": "Monitoring & Observability",
+      "skills": [
+        "Blackbox Exporter",
+        "DataDog",
+        "Grafana",
+        "OpenTelemetry",
+        "Prometheus"
+      ]
+    },
+    {
+      "grouping": "Version Control & Repositories",
+      "skills": [
+        "Git",
+        "Subversion",
+        "Nexus"
+      ]
+    },
+    {
+      "grouping": "Automation & Scripting Tools",
+      "skills": [
+        "RunDeck",
+        "Serverless Framework"
+      ]
+    },
+    {
+      "grouping": "Operating Systems",
+      "skills": [
+        "Debian",
+        "Ubuntu",
+        "Red Hat",
+        "NetBSD"
+      ]
+    },
+    {
+      "grouping": "Databases",
+      "skills": [
+        "MySQL",
+        "PostgreSQL",
+        "Percona MySQL",
+        "MongoDB"
+      ]
+    }
+  ]
+  
